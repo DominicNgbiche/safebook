@@ -1,0 +1,33 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-secrets.properties
+**/secrets.properties
+**/key.properties
+
+# Flutter / Dart generated files
+**/.dart_tool/
+**/build/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+
+# Android local configuration
+**/local.properties
+
+# Java / Spring Boot generated files
+**/target/
+
+# Gradle generated files
+**/.gradle/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Operating system files
+.DS_Store
+Thumbs.db
